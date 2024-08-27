@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-ripaldi",
+  "version": "1.0.0",
+  "description": "PunyaRipal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Ripaldi",
+  "license": "MIT",
+  "dependencies": {
+    "color": "^4.2.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  }
+}
