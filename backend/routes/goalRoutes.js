@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const {getGoals, setGoals} = require('../controllers/goalController')
+const {getGoals, setGoals, updateGoal, deleteGoal} = require('../controllers/goalController')
 
 // router.get('/', (req,res) => {
 //     res.status(200).json({
